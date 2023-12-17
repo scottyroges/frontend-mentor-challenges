@@ -1,3 +1,10 @@
+html {
+    min-height: 100%; 
+
+    display: flex;
+    flex-direction: column;
+}
+
 body,html {
     margin: 0;
     padding: 0;
@@ -13,10 +20,10 @@ body,html {
 }
 
 body {
+    flex-grow: 1;
     background-color: rgb(214, 225, 238);
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 main {
