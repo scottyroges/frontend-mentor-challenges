@@ -63,7 +63,7 @@ Error generating stack: `+o.message+`
 `,Xm=M.img`
   display: block;
   width: 100%;
-`,Zm="/assets/image-omelette-L6HfabrB.jpeg",Jm=({data:e})=>C.jsxs(qm,{children:[C.jsx(bm,{children:"Preparation Time"}),C.jsxs(e0,{children:[C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Total"}),": ",e.total]})}),C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Preparation"}),": ",e.preparation]})}),C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Cooking"}),": ",e.cooking]})})]})]}),qm=M.div`
+`,Zm=""+new URL("image-omelette-L6HfabrB.jpeg",import.meta.url).href,Jm=({data:e})=>C.jsxs(qm,{children:[C.jsx(bm,{children:"Preparation Time"}),C.jsxs(e0,{children:[C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Total"}),": ",e.total]})}),C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Preparation"}),": ",e.preparation]})}),C.jsx(li,{children:C.jsxs(oi,{children:[C.jsx(ii,{children:"Cooking"}),": ",e.cooking]})})]})]}),qm=M.div`
   background: var(--color-snow);
   padding: 28px;
 `,bm=M.h3`
