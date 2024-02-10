@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 import { COLORS, WEIGHTS, FAMILIES, SIZES } from "../constants.ts";
+import seriffont from "@assets/fonts/young-serif/YoungSerif-Regular.ttf";
+import sansseriffont from "@assets/fonts/outfit/Outfit-VariableFont_wght.ttf";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -74,12 +76,12 @@ html {
 /* FONTS */
 @font-face {
   font-family: 'Young Serif';
-  src: url('@assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype')
+  src: url(${seriffont}) format('truetype')
 }
 
 @font-face {
   font-family: 'Outfit';
-  src: url('@assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype')
+  src: url(${sansseriffont}) format('truetype')
 }
 
 
