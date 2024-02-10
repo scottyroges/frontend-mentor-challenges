@@ -71,6 +71,17 @@ html {
   --font-size-body: ${SIZES.body}rem;
 }
 
+/* FONTS */
+@font-face {
+  font-family: 'Young Serif';
+  src: url('@assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('@assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype')
+}
+
 
 /* GLOBAL STYLES */
 *,
