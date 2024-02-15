@@ -1,0 +1,7 @@
+.slogan {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body-regular);
+  color: var(--color-white);
+  text-align: center;
+  min-width: max-content;
+}

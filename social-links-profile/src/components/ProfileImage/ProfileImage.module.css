@@ -1,0 +1,11 @@
+.wrapper {
+  width: 88px;
+  border-radius: 10000px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  width: 100%;
+}

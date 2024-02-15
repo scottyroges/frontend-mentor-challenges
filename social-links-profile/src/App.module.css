@@ -1,0 +1,11 @@
+.main {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  --color-black: hsl(0 0 8);
+  --color-dark-grey: hsl(0 0 12);
+  --color-grey: hsl(0 0 20);
+  --color-white: hsl(0 0 100);
+  --color-highlight: hsl(75 94 57);
+
+  --font-size-heading: calc(24rem / 16);
+  --font-weight-heading: 600;
+
+  --font-size-body: calc(14rem / 16);
+  --font-weight-body-regular: 400;
+  --font-weight-body-bold: 700;
+
+  --font-family-sans-serif: "Inter";
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("@assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  /*
+    Create a stacking context, without a z-index.
+    This ensures that all portal content (modals and tooltips) will
+    float above the app.
+  */
+  isolation: isolate;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-black);
+  font-family: var(--font-family-sans-serif), sans-serif;
+  color: var(--color-white);
+  font-size: var(--font-size-body);
+}
